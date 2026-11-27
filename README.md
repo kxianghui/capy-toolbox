@@ -1,5 +1,7 @@
 # Capy
 
+[![Release](https://img.shields.io/github/v/release/kxianghui/capy-toolbox)](https://github.com/kxianghui/capy-toolbox/releases/latest)
+
 一个离线可用的 Windows 桌面工具箱,单个 `.exe` 提供三个互不依赖的工具:
 
 - **PDF 转 Word** —— 将 PDF 转换为 DOCX,输出到源文件同目录。
