@@ -1,0 +1,22 @@
+# 仓库内统一按 LF 存储，检出时按下列规则转换
+* text=auto eol=lf
+
+# Windows 脚本保持 CRLF，兼容 PowerShell 5.1 / cmd
+*.ps1  text eol=crlf
+*.psm1 text eol=crlf
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+
+# 二进制文件不做换行转换
+*.ico  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.pdf  binary
+*.docx binary
+*.xlsx binary
+*.exe  binary
+*.dll  binary
+*.zip  binary
+*.7z   binary
