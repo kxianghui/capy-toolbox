@@ -18,7 +18,10 @@ Write-Host 'Compiling GUI (reusing existing engine)...'
 $csc = Join-Path $env:WINDIR 'Microsoft.NET\Framework64\v4.0.30319\csc.exe'
 $icons = Join-Path $root 'icon'
 
-# Version naming: release has no type suffix; alpha/beta/etc. append -<type><num>.
+# The output name is fixed so releases/latest/download/Capy.exe always resolves.
+# The version lives in the release tag and in the exe's own version info.
+$exeName = 'Capy.exe'
+# Version labels: release has no type suffix; alpha/beta/etc. append -<type><num>.
 $type = ($Type + '').Trim().ToLowerInvariant()
 $version = ($Ver + '').Trim()
 $number = ($Num + '').Trim()
@@ -27,7 +30,6 @@ foreach ($token in @($type, $version, $number)) {
     if ($token -notmatch '^[0-9A-Za-z._+\-]*$') { throw "Invalid version token: $token" }
 }
 if ($type -eq '' -or $type -eq 'release') {
-    $exeName = "Capy-v$version.exe"
     $aboutVersion = "v$version"
     $windowTitle = "Capy $aboutVersion"
 } else {
@@ -39,7 +41,6 @@ if ($type -eq '' -or $type -eq 'release') {
         $suffix = $type
         $captionVersion = "v$version"
     }
-    $exeName = "Capy-v$version-$suffix.exe"
     $aboutVersion = "v$version-$suffix"
     $windowTitle = "Capy $typeTitle $captionVersion"
 }
