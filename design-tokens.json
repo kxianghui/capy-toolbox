@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "name": "Toolbox Light",
+    "version": "1.0.0",
+    "theme": "light",
+    "selfContained": true,
+    "units": {
+      "size": "px@96dpi",
+      "font": "pt"
+    }
+  },
+  "color": {
+    "formBack": "#F6F8FB",
+    "cardBack": "#FFFFFF",
+    "border": "#DFE4EB",
+    "borderHover": "#C1CAD6",
+    "text": "#1F242C",
+    "muted": "#6E7784",
+    "accent": "#2F6BFF",
+    "accentHover": "#1F5BEB",
+    "accentPressed": "#174CCD",
+    "accentSoft": "#EAF1FF",
+    "selectedBack": "#EAF1FF",
+    "hoverBack": "#F4F7FB",
+    "disabledBack": "#F1F3F6",
+    "disabledText": "#A6ADB8",
+    "success": "#1F9D55",
+    "successSoft": "#E8F7EE",
+    "danger": "#D63B3B",
+    "dangerSoft": "#FDECEC",
+    "pendingBack": "#EEF1F5",
+    "pendingFore": "#5B6472",
+    "scrollTrack": "#EEF1F5",
+    "scrollThumb": "#CBD3DE",
+    "scrollThumbHover": "#A6B1C0"
+  },
+  "colorSupplemental": {
+    "controlPressedBack": "#E8EDF5",
+    "progressTrack": "#E2E7EF",
+    "emptyIconIdle": "#96A0AF",
+    "emptyIconBackIdle": "#F1F5FA",
+    "focusRingOnAccent": {
+      "hex": "#FFFFFF",
+      "alpha": 150
+    },
+    "dragHighlightBorder": {
+      "ref": "color.accent",
+      "width": 1.6
+    }
+  },
+  "semantic": {
+    "status": {
+      "waiting": {
+        "background": "#EEF1F5",
+        "foreground": "#5B6472"
+      },
+      "processing": {
+        "background": "#EAF1FF",
+        "foreground": "#2F6BFF",
+        "spinner": true
+      },
+      "done": {
+        "background": "#E8F7EE",
+        "foreground": "#1F9D55"
+      },
+      "failed": {
+        "background": "#FDECEC",
+        "foreground": "#D63B3B"
+      }
+    }
+  },
+  "radius": {
+    "control": 8,
+    "card": 12,
+    "pill": 16,
+    "appIcon": 14
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24
+  },
+  "size": {
+    "tabStripHeight": 52,
+    "tabPillHeight": 32,
+    "tabPillPaddingX": 32,
+    "tabInsetLeft": 16,
+    "tabGap": 4,
+    "toolbarHeight": 52,
+    "toolbarPaddingY": 10,
+    "optionGroupGap": 24,
+    "optionLabelGap": 8,
+    "cardHostPadding": [16, 12, 16, 8],
+    "cardPadding": 16,
+    "cardBorder": 1,
+    "gridHeaderHeight": 36,
+    "gridRowHeight": 36,
+    "gridCellPaddingX": [10, 8],
+    "gridRowHighlightInsetX": 4,
+    "gridRowHighlightInsetY": 2,
+    "columnMinWidthFile": 140,
+    "stateColumnWidth": 140,
+    "controlHeight": 32,
+    "comboWidth": 132,
+    "comboWidthNarrow": 120,
+    "numberBoxWidth": 132,
+    "numberBoxPadding": 10,
+    "addButton": [104, 32],
+    "clearButton": [96, 34],
+    "startButton": [116, 34],
+    "bottomBarHeight": 56,
+    "bottomButtonTop": 11,
+    "bottomRightInset": 16,
+    "bottomButtonGap": 8,
+    "bottomCountGap": 12,
+    "statusTextTop": 18,
+    "countLabelWidth": 160,
+    "progressHeight": 3,
+    "progressInsetX": 16,
+    "statusPillHeight": 22,
+    "statusPillWidthBase": 22,
+    "statusPillSpinnerExtra": 15,
+    "spinnerDiameter": 11,
+    "spinnerStroke": 2,
+    "spinnerArcDegrees": 250,
+    "scrollColumnWidth": 12,
+    "scrollTrackWidth": 4,
+    "scrollTrackInsetRight": 8,
+    "scrollTrackInsetY": 2,
+    "scrollThumbMinHeight": 24,
+    "emptyIconDiameter": 44,
+    "emptyIconGap": 14,
+    "emptyTitleHeight": 26,
+    "emptySubtitleHeight": 20,
+    "menuPadding": [1, 4, 1, 4],
+    "menuItemPadding": [12, 6, 12, 6],
+    "menuHoverInset": [4, 1],
+    "menuSeparatorInset": 12,
+    "popupBorderInset": 1,
+    "popupPadding": 2,
+    "dropdownRowHeight": 30,
+    "dropdownMaxRows": 8
+  },
+  "font": {
+    "family": "Microsoft YaHei UI",
+    "base": 9,
+    "tab": 9.5,
+    "header": 9,
+    "headerWeight": "bold",
+    "emptyTitle": 12,
+    "emptyTitleWeight": "bold",
+    "emptySubtitle": 9.5,
+    "dropdown": 9
+  },
+  "motion": {
+    "hoverFrameMs": 16,
+    "hoverLerp": 0.35,
+    "hoverStopThreshold": 0.01,
+    "pressFrameMs": 16,
+    "pressLerp": 0.5,
+    "pressInset": 1,
+    "tabIndicatorFrameMs": 16,
+    "tabIndicatorLerp": 0.25,
+    "tabIndicatorStopThreshold": 0.5,
+    "rowHoverFrameMs": 16,
+    "rowHoverLerp": 0.35,
+    "statePillFrameMs": 16,
+    "statePillLerp": 0.25,
+    "statusFadeFrameMs": 16,
+    "statusFadeStep": 0.035,
+    "spinnerFrameMs": 40,
+    "spinnerDegrees": 30,
+    "progressFrameMs": 16,
+    "progressLerp": 0.22,
+    "progressStopThreshold": 0.2,
+    "progressSnapThreshold": 0.6,
+    "scrollWheelRows": 3
+  }
+}
